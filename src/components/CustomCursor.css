@@ -1,0 +1,40 @@
+.cursor-ring,
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cursor-ring {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.cursor-dot {
+  display: none;
+}
+
+/* Hide default cursor on desktop */
+@media (prefers-reduced-motion: no-preference) {
+  body.custom-cursor {
+    cursor: none;
+  }
+  body.custom-cursor a,
+  body.custom-cursor button,
+  body.custom-cursor input,
+  body.custom-cursor textarea,
+  body.custom-cursor select {
+    cursor: none;
+  }
+}
