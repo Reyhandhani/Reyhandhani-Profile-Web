@@ -39,8 +39,8 @@ export default function Contact({ data }) {
               <div className="contact-item">
                 <div className="contact-icon">📱</div>
                 <div>
-                  <span className="contact-label">Phone</span>
-                  <a href={`tel:${phone}`} className="contact-value">{phone}</a>
+                  <span className="contact-label">Phone / WhatsApp</span>
+                  <a href={`http://wa.me/6281249999573`} target="_blank" rel="noreferrer" className="contact-value">{phone}</a>
                 </div>
               </div>
             )}
