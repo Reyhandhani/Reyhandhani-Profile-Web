@@ -1327,10 +1327,14 @@ a.contact-value:hover {
    RESPONSIVE
 ═══════════════════════════════════════════════════════════ */
 @media (max-width: 900px) {
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
   .hero-content {
     flex-direction: column-reverse;
     text-align: center;
-    margin-top: 80px; /* added spacing from navbar */
+    gap: 1.5rem;
   }
   .hero-actions {
     justify-content: center;
@@ -1340,11 +1344,11 @@ a.contact-value:hover {
   }
   .hero-avatar,
   .hero-avatar-placeholder {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
   }
   .hero-tagline {
-    margin: 0 auto 2rem;
+    margin: 0 auto 1.5rem;
   }
   .hero-scroll-down {
     display: none;
