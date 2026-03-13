@@ -3,16 +3,16 @@
 ═══════════════════════════════════════════════════════════ */
 .dark {
   --bg:          #000000;
-  --bg-alt:      #050505;
+  --bg-alt:      #070707;
   --card:        rgba(20, 20, 20, 0.4); /* Translucent for glassmorphism */
   --card-solid:  #0a0a0a;
-  --card-hover:  rgba(30, 30, 30, 0.6);
-  --border:      rgba(255, 255, 255, 0.1);
+  --card-hover:  rgba(35, 35, 35, 0.5);
+  --border:      rgba(255, 255, 255, 0.12);
   --text:        #ffffff;
-  --text-muted:  #888888;
+  --text-muted:  #a8a8a8; /* Lighter gray for better readability */
   --accent:      #db2777; /* Deep Pink/Red replacing blue for a more aggressive modern look */
   --accent2:     #ef4444; /* Neon Red */
-  --accent-glow: rgba(219, 39, 119, 0.15);
+  --accent-glow: rgba(219, 39, 119, 0.12);
   --shadow:      0 8px 32px rgba(0,0,0,0.8);
 }
 .light {
@@ -269,8 +269,8 @@
 .blob {
   position: absolute;
   border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.15;
+  filter: blur(100px);
+  opacity: 0.1;
 }
 .blob-1 {
   width: 520px; height: 520px;
@@ -1330,6 +1330,7 @@ a.contact-value:hover {
   .hero-content {
     flex-direction: column-reverse;
     text-align: center;
+    margin-top: 80px; /* added spacing from navbar */
   }
   .hero-actions {
     justify-content: center;

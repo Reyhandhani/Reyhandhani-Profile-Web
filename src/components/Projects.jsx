@@ -19,7 +19,7 @@ export default function Projects({ projects }) {
   };
 
   return (
-    <section className="section" id="projects">
+    <section className="section section-alt" id="projects">
       <div className="container">
         <h2 className="section-title">
           My <span>Projects</span>
