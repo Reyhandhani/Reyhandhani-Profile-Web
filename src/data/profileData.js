@@ -28,9 +28,9 @@ export const profileData = {
   // -- ABOUT --------------------------------------------------
   about: {
     description:
-      'I am an Information Systems student at Telkom University Surabaya with a strong passion for full-stack web development. I enjoy building end-to-end web applications — from designing database schemas to crafting clean, responsive user interfaces.',
+      'I am an Information Systems student at Telkom University Surabaya with a strong interest in full stack software development. I enjoy building complete software solutions, from designing databases and developing backend systems to creating clean and responsive user interfaces.',
     description2:
-      'I have hands-on experience with Go, Laravel, PHP, MySQL, HTML, CSS, and Bootstrap. I am a quick learner who loves tackling real-world problems through technology, and I am always looking for opportunities to collaborate and grow as a developer.',
+      'I have hands-on experience with technologies such as Go, Laravel, PHP, MySQL, HTML, CSS, and Bootstrap to build and integrate web application components. I am a quick learner who enjoys solving real-world problems through technology and continuously improving my skills to grow as a Full Stack Software Developer.',
     stats: [
       { label: 'Projects Completed', value: '3' },
       { label: 'Work Experience', value: '5' },
